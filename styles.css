@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(0.25turn, rgb(10, 10, 37), rgb(86, 86, 19), rgb(0, 62, 62))
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+svg {
+    background-color: rgba(184, 182, 182, 0.697);
+    margin: 30px;
+    font-weight: bold;
+    color: black;
+}
+/* 
+g {
+    color: rgb(255, 255, 169);
+} */
+
+rect:hover {
+    stroke-width: 2;
+    fill: rgb(255, 0, 208);
+}
+
+#tooltip {
+    color: black;
+    background-color: rgba(184, 182, 182, 0.697);
+    visibility: hidden;
+    margin-bottom: -30px;
+    width: 300px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
